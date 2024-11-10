@@ -1,0 +1,41 @@
+{
+    "scenes": [
+      {
+        "id": 1,
+        "text": "You wake up in a mysterious forest. There are two paths.",
+        "choices": [
+          { "text": "Take the left path", "next_scene": 2 },
+          { "text": "Take the right path", "next_scene": 3 }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You find a river. Do you swim across or follow the river?",
+        "choices": [
+          { "text": "Swim across", "next_scene": 4 },
+          { "text": "Follow the river", "next_scene": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You encounter a sleeping dragon. What do you do?",
+        "choices": [
+          { "text": "Sneak past it", "next_scene": 5 },
+          { "text": "Try to fight it", "next_scene": 6 }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You safely swim across and reach a beautiful meadow. The End."
+      },
+      {
+        "id": 5,
+        "text": "You find a small village and rest there. The End."
+      },
+      {
+        "id": 6,
+        "text": "The dragon wakes up and defeats you. The End."
+      }
+    ]
+  }
+  
